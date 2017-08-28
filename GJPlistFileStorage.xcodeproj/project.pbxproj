@@ -14,6 +14,8 @@
 		395062AD1F53E0CC00370097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395062AC1F53E0CC00370097 /* Assets.xcassets */; };
 		395062B01F53E0CC00370097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395062AE1F53E0CC00370097 /* LaunchScreen.storyboard */; };
 		395062BB1F53E0CC00370097 /* GJPlistFileStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062BA1F53E0CC00370097 /* GJPlistFileStorageTests.swift */; };
+		395062C71F53E44300370097 /* GJPlistStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062C61F53E44300370097 /* GJPlistStorage.swift */; };
+		395062C91F53E4D900370097 /* GJPlistStorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062C81F53E4D900370097 /* GJPlistStorageHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		395062B61F53E0CC00370097 /* GJPlistFileStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJPlistFileStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395062BA1F53E0CC00370097 /* GJPlistFileStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJPlistFileStorageTests.swift; sourceTree = "<group>"; };
 		395062BC1F53E0CC00370097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395062C61F53E44300370097 /* GJPlistStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJPlistStorage.swift; sourceTree = "<group>"; };
+		395062C81F53E4D900370097 /* GJPlistStorageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJPlistStorageHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		395062A11F53E0CC00370097 /* GJPlistFileStorage */ = {
 			isa = PBXGroup;
 			children = (
+				395062C51F53E3D700370097 /* SourceClass */,
 				395062A21F53E0CC00370097 /* AppDelegate.swift */,
 				395062A41F53E0CC00370097 /* ViewController.swift */,
 				395062A61F53E0CC00370097 /* Main.storyboard */,
@@ -97,6 +102,15 @@
 				395062BC1F53E0CC00370097 /* Info.plist */,
 			);
 			path = GJPlistFileStorageTests;
+			sourceTree = "<group>";
+		};
+		395062C51F53E3D700370097 /* SourceClass */ = {
+			isa = PBXGroup;
+			children = (
+				395062C61F53E44300370097 /* GJPlistStorage.swift */,
+				395062C81F53E4D900370097 /* GJPlistStorageHandler.swift */,
+			);
+			path = SourceClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				395062A51F53E0CC00370097 /* ViewController.swift in Sources */,
+				395062C91F53E4D900370097 /* GJPlistStorageHandler.swift in Sources */,
+				395062C71F53E44300370097 /* GJPlistStorage.swift in Sources */,
 				395062A31F53E0CC00370097 /* AppDelegate.swift in Sources */,
 				395062AB1F53E0CC00370097 /* GJPlistFileStorage.xcdatamodeld in Sources */,
 			);
@@ -412,6 +428,7 @@
 				395062C11F53E0CC00370097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		395062C21F53E0CC00370097 /* Build configuration list for PBXNativeTarget "GJPlistFileStorageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				395062C41F53E0CC00370097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
